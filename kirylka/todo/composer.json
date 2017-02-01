@@ -1,0 +1,24 @@
+{
+    "name": "kirylka/todo",
+    "description": "This package provides the basic functionality for todo list",
+    "keywords": ["laravel", "todo"],
+    "homepage": "https://github.com/kirylka/todo",
+    "license" : "MIT",
+    "authors": [
+        {
+            "name": "Kiryl Anoshka",
+            "email": "kiryl.anoshko@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "~5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kirylka\\Todo\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
